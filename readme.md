@@ -1,4 +1,4 @@
-## what is API management?
+## What is API management?
 
 > API management allows you to make that API shareable with others, make it more secure, and above all, make it more manageable.
 
@@ -10,12 +10,12 @@
 > 4. We Also Have Insights.
 
 ### Azure API management is comprised of three different things. 
-1. Proxy.
-2. Publisher portal
+1. **Proxy**
+2. **Publisher Portal**
     - Here you go in to create your API management project, define your APIs, define how they will be exposed through a notion called products.
     - Analytics is also here.
 
-3. Developer portal
+3. **Developer Portal**
     - Face API portal, all of the documentation, all of the samples, the API console were all powered by developer portal. 
     - It can be customized, and developer portal has the capability of templates.
 
