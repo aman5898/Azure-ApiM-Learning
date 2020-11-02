@@ -20,3 +20,16 @@
     - It can be customized, and developer portal has the capability of templates.
 
     ![ApimView](Images/ApimView.png)
+
+
+### We have Policies in our APIM 
+1. Policies essentially are a bunch of statements
+2. The first one is a statement that is adding a variable to the context.
+3.  The second one is a choose command, very similar to the switch statement in C#,
+4. the set-header statement, which adds a header to an incoming request. 
+5.  You can also specify kinds of actions, if the header is already there, do you want to skip it, do you want to append it
+6. Finally you have the set-status policy statement that allows you to set the HTTP status code of your request.
+
+![Policy](Images/Policy.png)
+
+> We have a Context variable in Policy file, which is basically a read only presentation of the incoming request.
